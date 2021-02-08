@@ -1,0 +1,10 @@
+@import "../_mixins/font-face";
+
+// font-family: 'Lato-Regular', sans-serif
+@include font('CodecPro', bold, 700, '~assets/fonts/CodecPro-Bold.woff');
+@include font('CodecPro', bold, 700, '~assets/fonts/CodecPro-Bold.woff2');
+
+
+// font-family: 'CodecPro', light
+@include font('CodecPro', light, 300, '~assets/fonts/CodecPro-Light.woff');
+@include font('CodecPro', light, 300, '~assets/fonts/CodecPro-Light.woff2');

@@ -1,0 +1,31 @@
+$default-font: 'CodecPro';
+$background-color: #FCFCFC;
+
+$size-title: 40px;
+$size-title-m: 34px;
+$size-title-s: 28px;
+$size-logo:  24px;
+$size-info:  20px;
+$size-default: 16px;
+$size-middle: 14px;
+$size-small: 12px;
+
+
+:root{
+    --background-color: #FCFCFC;
+    --background-content: #F3F4F6;
+    --color-primary: #677B8F;
+    --color-secondary:  #012345;
+    --color-buttons:  #4959FF;
+    --color-price:  #F84AB3;
+}
+
+[data-theme="darkMode"] {
+    /* Variables for dark mode */
+    --background-color: #012345;
+    --background-content: #011C37;
+    --color-primary: #99A7B5;
+    --color-secondary: #FCFCFC;
+    --color-buttons:  #4959FF;    
+    --color-price:  #F84AB3;
+}
